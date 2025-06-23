@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+body{
+  @apply p-10;
+}
+
+button {
+  @apply border rounded-sm px-2 bg-gray-200 text-black text-sm py-1;
+}
