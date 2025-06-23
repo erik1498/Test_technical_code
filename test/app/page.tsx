@@ -64,7 +64,7 @@ export default function Home() {
         name="angka"
         id="angka"
         onChange={(e) => {
-          setAngka(x => x = e.target.value)
+          setAngka(e.target.value)
         }}
         placeholder="Input Angka"
         className="px-2 py-1 outline-1 rounded-sm mb-4" />
